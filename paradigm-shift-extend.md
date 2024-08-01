@@ -61,6 +61,7 @@ A chain of transformations is suggested below.
     - `76 to 80`: `HIGH_SOC_WARNING`
     - `81 to 100`: `HIGH_SOC_BREACH`
 
+
 - Translate the anomaly to a message in the appropriate language
 
 - Output the resulting message
@@ -70,3 +71,8 @@ A chain of transformations is suggested below.
 Each transformation is one function (or more).
 Do not mix different transformations in the same function.
 Have one function to chain ('compose') these transformation-functions.
+
+
+ Extenstions used : 
+Extension 1: Early Warning
+Extension 2: Support a language in addition to English
